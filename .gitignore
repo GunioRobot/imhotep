@@ -1,0 +1,15 @@
+*.dot
+.settings
+bin
+develop-eggs
+downloads
+eggs
+parts
+*.egg-info
+*.pyc
+.DS_Store
+.tmp_base.html*
+.pydevproject*
+.installed.cfg
+.mr.developer.cfg
+.project
