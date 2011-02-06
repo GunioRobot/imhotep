@@ -27,4 +27,8 @@ Envoke interactive shell::
 
   $: paster pshell development.ini imhotep
 
+Start the development server::
+
+  $: paster serve development.ini --reload
+
 
