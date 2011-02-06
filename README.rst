@@ -10,21 +10,21 @@ manipulations like crop, scale and rotate.
 The application is built as a simple package rather than based around buildout
 to make it easier to deploy on one of the new Python cloud hosting solutions.
 
-#. Install pyramid
+Install pyramid::
 
-  ::
+  $: pip install pyramid
 
-    $: pip install pyramid
+Generate package scaffold::
 
-#. Generate package scaffold
+  $: paster create -t pyramid_routesalchemy imhotep
 
-  ::
+Install package for development::
 
-    $: paster create -t pyramid_routesalchemy imhotep
+  $: cd imhotep
+  $: python setup.py develop
 
-#. Install package for development
+Envoke interactive shell::
 
-  ::
+  $: paster pshell development.ini imhotep
 
-    $: cd imhotep
-    $: python setup.py develop
+
